@@ -6,6 +6,7 @@ for (i = 1; i <= 100; i++) {
     // i multipli di 3 colorarli con fizz, multipli 5 buzz multipli entambi fizzbuzz
     if ( i % 3==0) {
         square = `<div class="fizz justify-content-center align-items-center flex-wrap box mx-3 my-3">`;
+        square = document.writeln(i)
     }
 
     else if (i % 5==0) {
@@ -17,11 +18,9 @@ for (i = 1; i <= 100; i++) {
     }
 
     else {
-        square = `<div class="fizzbuzz justify-content-center align-items-center flex-wrap box mx-3 my-3">`;
+        square = `<div class="justify-content-center align-items-center flex-wrap box mx-3 my-3">`;
     }
 
     container.innerHTML += square;
 }
 
-// appendi elementi nel dom
-// stile diverso per i multipli

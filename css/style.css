@@ -13,3 +13,15 @@ h1 {
     height: 200px;
     background-color: black;
 }
+
+.fizz {
+    background-color: red;
+}
+
+.buzz {
+    background-color: green;
+}
+
+.fizzbuzz {
+    background-color: yellow;
+}
